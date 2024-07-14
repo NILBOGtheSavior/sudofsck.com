@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
+    margin: 0;
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #F8C802;
+}
+
+@font-face {
+    font-family: consola;
+    src: url(fonts/CONSOLA.TTF);
+}
