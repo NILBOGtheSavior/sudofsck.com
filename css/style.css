@@ -56,11 +56,11 @@ body {
                 margin: 1em;
                 align-items: center;
                 border: solid 1px white;
-                div#text {
+                p#slideshow_text {
                     flex: 1;
                     text-align: center;
                 }
-                div#image {
+                div {
                     flex: 1;
                     img {
                         width: 100%;
@@ -119,6 +119,7 @@ body {
         margin-top: 2.5em;
         padding: 1em;
         display: flex;
+        gap: 20px;
         div {
             display: flex;
             flex: 1;
