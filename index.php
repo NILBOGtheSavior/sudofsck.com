@@ -10,17 +10,19 @@
         <script src="js/slideshow.js"></script>
     </head>
     <body>
-        <header>
-            <h1>> sudo fsck</h1>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="libraries.html">libraries</a></li>
-                <li><a href="about.html">about</a></li>
-                <li><b><a href="store.html">store</a></b></li>
-            </ul>
-        </nav>
+        <div id="navbar">
+            <header>
+                <h1>> sudo fsck</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="libraries.html">libraries</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><b><a href="store.html">store</a></b></li>
+                </ul>
+            </nav>
+        </div>
         <main>
             <section id="spotlight">
                 <div id="slideshow">
@@ -96,22 +98,24 @@
         </main>
         <footer>
             <div>
-                <h2>site map</h2>
-                <a href="">> home</a>
-                <a href="">> libraries</a>
-                <a href="">> about</a>
-                <a href="">> store</a>
-            </div>
-            <div>
-                <h2>social media</h2>
-                <a href="">> instagram</a>
-                <a href="">> twitter</a>
-                <a href="">> tiktok</a>
-            </div>
-            <div style="text-align: end;">
-                <a href="">terms and conditions</a>
-                <a href="">privacy policy</a>
-                <p>designed by <i><a href="http://naztechempire.com">naztech empire</a></i> &copy; 2024</p>
+                <section>
+                    <h2>site_map</h2>
+                    <a href="">> home</a>
+                    <a href="">> libraries</a>
+                    <a href="">> about</a>
+                    <a href="">> store</a>
+                </section>
+                <section>
+                    <h2>social_media</h2>
+                    <a href="">> instagram</a>
+                    <a href="">> twitter</a>
+                    <a href="">> tiktok</a>
+                </section>
+                <section style="text-align: end;">
+                    <a href="">terms and conditions</a>
+                    <a href="">privacy policy</a>
+                    <p>designed by <i><a href="http://naztechempire.com">naztech empire</a></i> &copy; 2024</p>
+                </section>
             </div>
         </footer>
     </body>
